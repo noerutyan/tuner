@@ -1,0 +1,16 @@
+language: php
+
+notifications:
+  email: false
+
+php:
+  - '7.0'
+  - '7.1'
+
+before_script:
+  - mysql -u root -e "CREATE DATABASE tuner COLLATE 'utf8_general_ci';"
+  - mysql -u root tuner < tuner.sql
+  - cp .env.example .env
+  - composer install
+
+script: phpunit
