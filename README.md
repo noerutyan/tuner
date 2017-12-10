@@ -3,7 +3,7 @@
 一个简单的音乐电台
 
 [![Build Status](https://travis-ci.org/noerutyan/tuner.svg?branch=master)](https://travis-ci.org/noerutyan/tuner)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/2ac268215dc6341e306a/maintainability)](https://codeclimate.com/github/noerutyan/tuner/maintainability)
 
 ## 安装
 
